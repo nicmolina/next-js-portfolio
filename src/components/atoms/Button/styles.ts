@@ -6,21 +6,18 @@ export const Button = styled.button<IButtonProps>`
   &:hover {
     color: ${colors.primary_dark};
     background-color: ${colors.gray100};
+    transform: scale(1.05);
   }
   font-weight: ${({ variant }) => (variant === 'secondary' ? '600' : '400')}
   display: flex;
-  width: 100%;
   height: 100%;
   padding: 6px;
   cursor: pointer;
-  transition: 0.2s ease-in;
+  transition: 0.2s ease-in-out;
   border-radius: 8px;
-  /* background-color: ${(props) =>
-    props.variant === 'primary' ? colors.primary_dark : 'inherit'}; */
-  color: ${(props) =>
-    props.variant === 'primary' ? colors.gray100 : colors.primary_dark};
+  color: ${colors.gray100};
   ${(props) =>
     props.variant === 'primary'
       ? `border: 2px ${colors.gray100} solid; background-color: ${colors.primary_dark}`
-      : ''}
+      : `border: none; background-color: inherit`}
 `

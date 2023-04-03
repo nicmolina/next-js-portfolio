@@ -11,4 +11,5 @@ export interface IButtonProps {
   children?: ReactNode
   isLoading?: boolean
   disabled?: boolean
+  size?: 'small' | 'medium' | 'large'
 }

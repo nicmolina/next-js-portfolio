@@ -8,10 +8,11 @@ const Button: FC<IButtonProps> = ({
   onClick,
   variant,
   type,
-  children
+  children,
+  size
 }) => {
   return (
-    <S.Button onClick={onClick} type={type} variant={variant}>
+    <S.Button size={size} onClick={onClick} type={type} variant={variant}>
       {label}
       {icon}
       {children}
