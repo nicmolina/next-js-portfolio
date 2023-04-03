@@ -1,6 +1,6 @@
 import { ReactNode } from 'react'
 
-export type ButtonVariant = 'primary' | 'secondary' | 'tertiary'
+export type ButtonVariant = 'primary' | 'secondary'
 
 export interface IButtonProps {
   variant: ButtonVariant
@@ -9,4 +9,6 @@ export interface IButtonProps {
   type?: 'button' | 'submit' | 'reset'
   label?: string
   children?: ReactNode
+  isLoading?: boolean
+  disabled?: boolean
 }

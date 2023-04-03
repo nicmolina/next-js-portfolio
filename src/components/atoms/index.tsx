@@ -1,3 +1,4 @@
 import Main from './Main'
+import Button from './Button'
 
-export { Main }
+export { Button, Main }
