@@ -1,7 +1,7 @@
 import { FC } from 'react'
 import * as S from './styles'
 import { CodeView } from 'styled-icons/remix-editor'
-import { Button } from 'components/atoms'
+import { Button, Link } from 'components/atoms'
 
 const Header: FC = () => {
   return (
@@ -9,31 +9,31 @@ const Header: FC = () => {
       <S.ContentContainer>
         <S.ListContainer>
           <li>
-            <a href="/about">
+            <Link href="/">
               <Button
                 variant="secondary"
                 label={'</> Nícolas Marcondes Molina'}
               />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about">
+            <Link href="/about">
               <Button variant="secondary" label={'About'} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/works">
+            <Link href="/works">
               <Button variant="secondary" label={'Works'} />
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/resume">
+            <Link href="/resume">
               <Button variant="secondary" label={'Resume'} />
-            </a>
+            </Link>
           </li>
         </S.ListContainer>
         <S.ContactMeContainer>
-          <Button variant="primary" label={'Contact me'} />
+          <Button variant="secondary" label={'Contact me'} />
         </S.ContactMeContainer>
       </S.ContentContainer>
     </S.Wrapper>

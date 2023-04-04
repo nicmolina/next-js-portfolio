@@ -8,7 +8,8 @@ export const Button = styled.button<IButtonProps>`
     background-color: ${colors.gray100};
     transform: scale(1.05);
   }
-  font-weight: ${({ variant }) => (variant === 'secondary' ? '600' : '400')}
+  font-weight: ${({ variant }) => (variant === 'secondary' ? '600' : '400')};
+  font-family: var(--main-font);
   display: flex;
   height: 100%;
   padding: 6px;

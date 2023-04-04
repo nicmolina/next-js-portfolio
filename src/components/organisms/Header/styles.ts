@@ -18,12 +18,12 @@ export const ContentContainer = styled.div`
 
 export const ContactMeContainer = styled.div`
   display: flex;
-  width: 20%;
+  width: 100px;
 `
 
 export const ListContainer = styled.ul`
   display: flex;
   list-style-type: none;
-  margin-left: 16px;
+  gap: 8px;
   width: 100%;
 `
