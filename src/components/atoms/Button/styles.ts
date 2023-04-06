@@ -12,6 +12,7 @@ export const Button = styled.button<IButtonProps>`
   font-family: var(--main-font);
   display: flex;
   height: 100%;
+  align-items: center;
   padding: 6px;
   cursor: pointer;
   transition: 0.2s ease-in-out;

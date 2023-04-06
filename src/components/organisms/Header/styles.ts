@@ -3,9 +3,10 @@ import { colors } from 'styles/color'
 
 export const Wrapper = styled.div`
   display: flex;
+  position: fixed;
   width: 100%;
-  max-height: 6%;
-  background-color: ${colors.primary};
+  height: 6rem;
+  background-color: 'transparent';
   color: ${colors.secondary_light};
   padding: 8px 16px;
 `
