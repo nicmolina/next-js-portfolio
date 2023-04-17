@@ -2,10 +2,7 @@
 
 export const colors = {
   // MOBILE TOKENS
-  brandDark: '#B71420' as '#B71420',
-  brandMedium: '#EA1D2C' as '#EA1D2C',
-  brandLight: '#FF4E4E' as '#FF4E4E',
-  brandLightest: '#FEF4F4' as '#FEF4F4',
+  mountBattenPink: '#9A7AA0',
 
   gray100: '#FFFFFF' as '#FFFFFF',
   gray200: '#F7F7F7' as '#F7F7F7',
