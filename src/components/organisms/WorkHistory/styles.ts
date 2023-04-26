@@ -14,6 +14,6 @@ export const ContentContainer = styled.div`
 `
 export const HeadingContainer = styled.h2`
   font-size: 6rem;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 `

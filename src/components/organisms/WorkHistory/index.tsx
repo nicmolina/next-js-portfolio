@@ -1,5 +1,6 @@
 import { FC } from 'react'
 import * as S from './styles'
+import { JobCard } from 'components/molecules'
 import { motion } from 'framer-motion'
 
 const WorkHistory: FC = () => {
@@ -17,6 +18,7 @@ const WorkHistory: FC = () => {
           }}
         >
           <S.HeadingContainer>Work History</S.HeadingContainer>
+          <JobCard />
         </motion.div>
       </S.ContentContainer>
     </S.Wrapper>

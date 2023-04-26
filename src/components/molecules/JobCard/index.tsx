@@ -7,6 +7,8 @@ const JobCard: FC = () => {
     <S.JobCardWrapper>
       <Image
         alt="bees logo image"
+        width={1000}
+        height={1000}
         src="/assets/images/bees.png"
         quality={'100'}
       />

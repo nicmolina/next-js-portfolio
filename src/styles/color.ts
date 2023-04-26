@@ -53,7 +53,7 @@ export const colors = {
 
   // WEB TOKENS
   primary: '#3F3244' as '#3F3244',
-  primary_dark: '#2F2235' as '#2F2235',
+  primary_dark: '#000' as '#000',
   primary_light: '#60495A' as '#60495A',
   primary_lightest: '#FCEBEA' as '#FCEBEA',
   secondary_dark: '#A9ACA9' as '#A9ACA9',

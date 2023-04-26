@@ -25,6 +25,6 @@ export const HeadingContainer = styled.h1`
   margin-bottom: 20rem;
   text-align: center;
   color: ${colors.gray100};
-  font-weight: 300;
+  font-weight: 400;
   height: fit-content;
 `
