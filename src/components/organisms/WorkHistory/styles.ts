@@ -1,11 +1,12 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 export const Wrapper = styled.div`
   display: flex;
   width: 100%;
 `
 
-export const ContentContainer = styled.div`
+export const ContentContainer = styled(motion.div)`
   display: flex;
   flex-direction: column;
   width: 100%;
