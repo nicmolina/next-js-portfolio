@@ -6,9 +6,20 @@ export const Wrapper = styled.div`
   position: fixed;
   width: 100%;
   height: 6rem;
-  background-color: 'transparent';
+  background-color: transparent;
   color: ${colors.secondary_light};
   padding: 8px 16px;
+  z-index: 2;
+`
+
+export const BarWrapper = styled.div`
+  position: fixed;
+  top: 6rem;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: ${colors.gray400};
+  z-index: 998;
 `
 
 export const ContentContainer = styled.div`

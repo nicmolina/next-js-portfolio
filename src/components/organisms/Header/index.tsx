@@ -24,7 +24,9 @@ const Header: FC = () => {
 
       if (scrollPosition > 0) {
         gsap.to(headerRef.current, {
-          backgroundColor: colors.primary,
+          backdropFilter: 'saturate(180%) blur(1rem)',
+          boxShadow: 'rgba(255, 255, 255, 0.1) 0px -0.1rem 0px 0px inset',
+          backgroundColor: 'rgba(0, 0, 0, 0.75)',
           duration: 0.5
         })
       } else {
@@ -43,23 +45,26 @@ const Header: FC = () => {
   }, [])
 
   return (
-    <S.Wrapper>
-      <S.ContentContainer>
-        <S.ListContainer>
-          <li>
-            <Link href="/">
-              <Button
-                variant="secondary"
-                label={'</> Nícolas Marcondes Molina'}
-              />
-            </Link>
-          </li>
-        </S.ListContainer>
-        <S.ContactMeContainer>
-          <Button variant="secondary" label={'Contact me'} />
-        </S.ContactMeContainer>
-      </S.ContentContainer>
-    </S.Wrapper>
+    <>
+      <S.Wrapper ref={headerRef}>
+        <S.ContentContainer>
+          <S.ListContainer>
+            <li>
+              <Link href="/">
+                <Button
+                  variant="secondary"
+                  label={'</> Nícolas Marcondes Molina'}
+                />
+              </Link>
+            </li>
+          </S.ListContainer>
+          <S.ContactMeContainer>
+            <Button variant="secondary" label={'Contact me'} />
+          </S.ContactMeContainer>
+        </S.ContentContainer>
+      </S.Wrapper>
+      <S.BarWrapper ref={barRef} />
+    </>
   )
 }
 
