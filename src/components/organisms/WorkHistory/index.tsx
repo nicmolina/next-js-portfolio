@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import * as S from './styles'
 import { JobCard } from 'components/molecules'
+import { TextLink } from 'components/atoms'
 
 const WorkHistory: FC = () => {
   return (
@@ -19,7 +20,9 @@ const WorkHistory: FC = () => {
           height={280}
         >
           <h3>Ifood Groceries</h3>
-          <p>by Ifood</p>
+          <p>
+            by <TextLink label="Ifood"></TextLink>
+          </p>
           <p>
             Ifood Groceries is a B2C marketplace that is responsible for
             receiving orders from clients to groceries. On this project I was

@@ -2,7 +2,6 @@ import { FC, useEffect, useRef } from 'react'
 import * as S from './styles'
 import { Button, Link } from 'components/atoms'
 import { gsap } from 'gsap'
-import { colors } from 'styles/color'
 
 const Header: FC = () => {
   const headerRef = useRef<HTMLDivElement>(null)

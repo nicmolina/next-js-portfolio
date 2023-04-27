@@ -27,6 +27,8 @@ export const JobCardInfo = styled.div`
   }
 
   p {
+    display: flex;
+    gap: 0.4rem;
     font-size: 1.6rem;
     color: ${colors.gray500};
   }
