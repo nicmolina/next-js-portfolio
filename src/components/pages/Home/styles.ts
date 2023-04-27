@@ -34,8 +34,14 @@ export const InfoContainer = styled.div`
   gap: 6.4rem;
 
   p {
-    font-size: 2.2rem;
+    font-size: 2rem;
+    font-weight: 300;
     color: ${colors.gray500};
-    max-width: 75%;
   }
+`
+
+export const InfoTextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 `

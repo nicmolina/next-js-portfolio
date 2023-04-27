@@ -54,21 +54,6 @@ const Header: FC = () => {
               />
             </Link>
           </li>
-          <li>
-            <Link href="/about">
-              <Button variant="secondary" label={'About'} />
-            </Link>
-          </li>
-          <li>
-            <Link href="/works">
-              <Button variant="secondary" label={'Works'} />
-            </Link>
-          </li>
-          <li>
-            <Link href="/resume">
-              <Button variant="secondary" label={'Resume'} />
-            </Link>
-          </li>
         </S.ListContainer>
         <S.ContactMeContainer>
           <Button variant="secondary" label={'Contact me'} />

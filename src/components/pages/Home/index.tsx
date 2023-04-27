@@ -29,14 +29,28 @@ const HomePage: FC = () => {
             height={400}
             quality={'100'}
           />
-          <p>
-            Former student of Computer Science in Universidade Federal de São
-            Carlos. I love how programming and technology skills can be used to
-            create something new and with a rich user experience. Always like to
-            work together with other people because I think its possible to
-            learn something new everyday if you talk and try to understand
-            different people.
-          </p>
+          <S.InfoTextContainer>
+            <p>
+              My name is Nicolas Molina, a software engineer passionate about
+              frontend, training and family. I&apos;m 23 years old and based in
+              Sorocaba, São Paulo
+            </p>
+            <p>
+              I&apos;ve developed more than 30 projects for over 3 countries
+              around the world, projects with more than 3 million monthly users
+              and generating a revenue of 200 million dollars per month, for
+              leading companies in the market like the AB-INBev, Ifood, Ambev,
+              BTG Pactual, UOL, Poliedro, among others.
+            </p>
+            <p>
+              Former student of Computer Science in Universidade Federal de São
+              Carlos. I love how programming and technology skills can be used
+              to create something new and with a rich user experience. Always
+              like to work together with other people because I think its
+              possible to learn something new everyday if you talk and try to
+              understand different people.
+            </p>
+          </S.InfoTextContainer>
         </S.InfoContainer>
         <WorkHistory />
       </S.ContentContainer>

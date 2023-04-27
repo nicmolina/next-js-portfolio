@@ -6,6 +6,13 @@ export const JobCardWrapper = styled.div`
   width: 100%;
   justify-content: space-between;
   gap: 6.4rem;
+
+  img {
+    transition: 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 `
 
 export const JobCardInfo = styled.div`
@@ -15,7 +22,7 @@ export const JobCardInfo = styled.div`
   gap: 1.2rem;
   justify-content: center;
 
-  h2 {
+  h3 {
     font-size: 3.2rem;
   }
 
