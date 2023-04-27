@@ -5,23 +5,30 @@ import { JobCard } from 'components/molecules'
 const WorkHistory: FC = () => {
   return (
     <S.Wrapper>
-      <S.ContentContainer
-        initial={{ y: -50, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{
-          type: 'spring',
-          stiffness: 400,
-          delay: 0.2,
-          duration: 1
-        }}
-      >
+      <S.ContentContainer>
         <S.HeadingContainer>Work History</S.HeadingContainer>
         <JobCard
           direction="left"
+          src="/assets/images/ifood_mercado.png"
+          alt="ifood groceries website image"
+          width={550}
+          height={320}
+        >
+          <h2>Ifood Groceries</h2>
+          <p>by Ifood</p>
+          <p>
+            Ifood Groceries is a B2C marketplace that is responsible for
+            receiving orders from clients to groceries. On this project I was
+            also responsible for recreating from scratch the application
+            responsible for separating the itens.
+          </p>
+        </JobCard>
+        <JobCard
+          direction="right"
           src="/assets/images/bees.png"
-          alt="bees logo image"
-          width={1000}
-          height={1000}
+          alt="bees website image"
+          width={550}
+          height={320}
         >
           <h2>BEES</h2>
           <p>by ABInbev</p>

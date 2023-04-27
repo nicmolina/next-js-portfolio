@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   width: 100%;
 `
 
-export const ContentContainer = styled(motion.div)`
+export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -15,6 +15,6 @@ export const ContentContainer = styled(motion.div)`
 `
 export const HeadingContainer = styled.h2`
   font-size: 6rem;
-  font-weight: 400;
+  font-weight: 600;
   text-align: center;
 `
